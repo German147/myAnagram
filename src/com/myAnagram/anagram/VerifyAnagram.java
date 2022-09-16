@@ -26,7 +26,7 @@ public class VerifyAnagram {
         x = x.toLowerCase();
         y = y.toLowerCase();
 
-        //Now I create a new array for each variable
+        //Now I create a new array of char for each variable
         char a[] = x.toCharArray();
         char b[] = y.toCharArray();
 
