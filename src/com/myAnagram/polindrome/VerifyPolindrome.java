@@ -3,7 +3,7 @@ package com.myAnagram.polindrome;
 public class VerifyPolindrome {
     public static void main(String[] args) {
 
-        String x = "liril";
+        String x = "liRil";
         //I generate an array of char from my input stored in "x".
         char y[] = x.toCharArray();
         //I get the lenght using the char y[].

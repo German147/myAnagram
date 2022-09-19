@@ -6,16 +6,16 @@ import java.util.Scanner;
 public class VerifyAnagram {
     public static void main(String[] args) {
 
-      analizeAnagram();
+      analyzeAnagram();
 
     }
-    public static void analizeAnagram(){
+    public static void analyzeAnagram(){
         //Here I get the data with the Scanner class
         Scanner sc = new Scanner(System.in);
         System.out.println("Write the first word");
         String x = sc.nextLine();
 
-        System.out.println("Write the second word to analize weather it is an anagram or not");
+        System.out.println("Write the second word to analyze weather it is an anagram or not");
         String y = sc.nextLine();
 
         // Now, I replace the spaces for no gaps.
